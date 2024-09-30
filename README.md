@@ -4,7 +4,7 @@ clone to the repository
 ```bash
  git clone git clone "https://github.com/parthivkumarnikku/terminal.git" && cd terminal
 ```
-add the following line to your native ~/.zshrc
+copy the file to your required directory
 ```bash
 cp custom_zsh_prompt.sh ~/.custom_zsh_prompt.sh
 ```
@@ -37,7 +37,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-sy
 echo "source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 ```
-
+add the following line to your native ~/.zshrc
 ```bash
 echo "source /home/${USER}/.custom_zsh_prompt.sh" >> ~/.zshrc
 ```
