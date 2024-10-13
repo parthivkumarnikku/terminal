@@ -37,10 +37,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-sy
 echo "source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 ```
-add the following line to your native ~/.zshrc
-```bash
-echo "source /home/${USER}/.custom_zsh_prompt.sh" >> ~/.zshrc
-```
 Apply changes
 
 ```bash
