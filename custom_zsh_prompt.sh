@@ -52,8 +52,8 @@ set_prompt() {
 
     # Customize your prompt to enhance separation between elements
     PROMPT="┌──${COLOR_YELLOW}${hacker} ${COLOR_RESET}${COLOR_GREEN}${user_host} ${COLOR_BLUE}on ${COLOR_YELLOW}[${ip_address}]${COLOR_RESET} $
-├──${COLOR_GREEN}  ${COLOR_BLUE}${dir}${COLOR_RESET}
-└──${COLOR_RED}${kali}  ${COLOR_RESET} "  # Changed the prompt icon to arrows ❯❯❯
+├──${COLOR_GREEN} ${COLOR_BLUE}${dir}${COLOR_RESET}
+└──${COLOR_RED}${kali} ${COLOR_RESET} "  # Changed the prompt icon to arrows ❯❯❯
 
     # Set the time in 12-hour format with AM/PM on the right side of the prompt
     RPROMPT="[ ⚡${elapsed_display} ] ${COLOR_CYAN}[ %D{%I:%M %p} ]${COLOR_RESET}"
