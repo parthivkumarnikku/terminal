@@ -6,7 +6,7 @@ clone to the repository
 ```
 edit the zshrc.
 ```bash
-echo custom_zsh_prompt.sh >> ~/.zshrc
+cat custom_zsh_prompt.sh >> ~/.zshrc
 ```
 Install oh-my-zsh
 ```bash
