@@ -80,7 +80,7 @@ function reset_timer {
 }
 
 # Bind the reset function to interrupt signals (Ctrl+C, etc.)
-trap reset_timer INT
+#trap reset_timer INT
 
 # Add a newline between each command execution using precmd
 source /home/${USER}/.custom_zsh_prompt.sh
