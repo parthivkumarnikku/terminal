@@ -1,3 +1,4 @@
+################################################################ CUSTOM THEME https://github.com/parthivkumarnikku #################################################
 # Global variable to store elapsed time display
 elapsed_display=""
 
