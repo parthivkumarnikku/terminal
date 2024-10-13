@@ -2,7 +2,7 @@
 ## MANUAL
 clone to the repository
 ```bash
- git clone git clone "https://github.com/parthivkumarnikku/terminal.git" && cd terminal
+ git clone "https://github.com/parthivkumarnikku/terminal.git" && cd terminal
 ```
 edit the zshrc.
 ```bash
