@@ -4,9 +4,9 @@ clone to the repository
 ```bash
  git clone git clone "https://github.com/parthivkumarnikku/terminal.git" && cd terminal
 ```
-copy the file to your required directory
+edit the zshrc.
 ```bash
-cp custom_zsh_prompt.sh ~/.custom_zsh_prompt.sh
+echo custom_zsh_prompt.sh >> ~/.zshrc
 ```
 Install oh-my-zsh
 ```bash
