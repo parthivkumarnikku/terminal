@@ -15,14 +15,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 After installation, add the following plugins in the ~/.zshrc file to enhance autocompletion:
 ```bash
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+echo "plugins=(git zsh-autosuggestions zsh-syntax-highlighting)" >> ~/.zshrc
 
 ```
 Add the following lines to your .zshrc file:
 ```bash
-# Enable command auto-completion
+echo "# Enable command auto-completion
 autoload -U compinit
-compinit
+compinit" >> ~/.zshrc
 ```
 - Make sure to install the zsh-autosuggestions and zsh-syntax-highlighting plugins if you haven't done so
 Install zsh-autosuggestions:
