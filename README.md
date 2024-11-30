@@ -4,10 +4,7 @@ clone to the repository
 ```bash
  git clone "https://github.com/parthivkumarnikku/terminal.git" && cd terminal
 ```
-edit the zshrc.
-```bash
-cat custom_zsh_prompt.sh >> ~/.zshrc
-```
+
 Install oh-my-zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -36,6 +33,10 @@ Install zsh-syntax-highlighting:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 echo "source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
+```
+edit the zshrc.
+```bash
+cat custom_zsh_prompt.sh >> ~/.zshrc
 ```
 Apply changes
 
