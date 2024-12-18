@@ -15,7 +15,7 @@
 
 ### This repository contains my terminal configurations 
 
-- `terminal` -> theme of the terminal
+- `zshrc` -> theme of the terminal
 - `tmux`     -> Tmux configuration 
 
 
