@@ -1,56 +1,14 @@
-
-# Manual
-
-### Installation of `tmux` on Linux and configuring.
-clone to the repository
-```bash
- git clone "https://github.com/parthivkumarnikku/terminal.git" && cd terminal/tmux
-```
-
-Install tmux 
-```bash
-sudo apt install tmux
-``` 
-Install a Clipboard Integration Tool
-#### Linux
-```bash
-# Install xclip
-sudo apt install xclip  # For Ubuntu/Debian
-```
-
-copy the configuration file to home directory
-```bash
-cat .tmux.conf >> ~/.tmux.conf
-```
-
-Reload tmux configuration
-```bash
-tmux source-file ~/.tmux.conf
-```
-### Copying text in tmux
-1. Enter copy mode: Ctrl-b [
-2. Navigate and select using `space key` and,
-3. Press `y` to `copy` the selection to the system clipboard.
-4. Paste is as usual `ctrl + shift + v`
----
-## or
-### Set Tmux to Automatically Use the Clipboard
-To make Tmux always copy to the system clipboard without extra bindings, use this configuration:
-
-```bash
-# Automatically use the system clipboard
-set-option -g set-clipboard on
-```
-This tells Tmux to integrate directly with the system clipboard when copying text. Ensure your Tmux version supports this (Tmux 2.6 or newer).
-
-
-| Column 1 | Column 2 | Column 3 |
-
-|---|---|---|
-
-| Data 1 | Data 2 | Data 3 |
-
-| Data 4 | Data 5 | Data 6 |
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#) 
+[![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kali-linux&logoColor=white)](#) 
+[![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white)](#) 
+[![Terminal](https://img.shields.io/badge/Terminal-black?style=for-the-badge&logo=gnome-terminal&logoColor=white)](#) 
+[![Zsh](https://img.shields.io/badge/Zsh-FFD500?style=for-the-badge&logo=gnu-bash&logoColor=black)](#) 
+[![Syntax Highlighting](https://img.shields.io/badge/Syntax_Highlighting-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](#) 
+[![Terminal Plugins](https://img.shields.io/badge/Terminal_Plugins-1E90FF?style=for-the-badge&logo=plug&logoColor=white)](#) 
+[![Tmux Config](https://img.shields.io/badge/Tmux_Config-2F4F4F?style=for-the-badge&logo=tmux&logoColor=white)](#) 
+[![Shortcuts](https://img.shields.io/badge/Shortcuts-FFA500?style=for-the-badge&logo=shortcuts&logoColor=white)](#) 
+[![Shell Script (sh)](https://img.shields.io/badge/Sh-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](#) 
+[![Xclip](https://img.shields.io/badge/Xclip-4682B4?style=for-the-badge&logo=clip&logoColor=white)](#)
 
 # Manual
 
